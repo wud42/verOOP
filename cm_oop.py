@@ -29,17 +29,17 @@ class DbConn(object):
         if self.service == "--mdm":
             self.conn_info = {'user': username,
                               'pw': password,
-                              'host': 'i3ip1.gene.com',
-                              'port': '50500',
-                              'SID': 'i3ip11',
-                              'service': 'i3ip1.gene.com'}
+                              'host': '???',
+                              'port': '???',
+                              'SID': '???',
+                              'service': '???'}
         elif self.service == "--mcdm":
             self.conn_info = {'user': username,
                               'pw': password,
-                              'host': 'i3mp1.gene.com',
-                              'port': '50500',
-                              'SID': 'i3mp11',
-                              'service': 'i3mp1.gene.com'}
+                              'host': '???',
+                              'port': '???',
+                              'SID': '???',
+                              'service': '???'}
         else:
             print(self.service, 'not found.')
         return self.conn_info
